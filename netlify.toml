@@ -1,0 +1,23 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Redirect rules for Next.js
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Enable Netlify Forms
+[context.production]
+  environment = { NODE_ENV = "production" }
+
+# Enable Netlify Identity for CMS authentication
+[context.production.environment]
+  NETLIFY_IDENTITY = "true"

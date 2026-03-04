@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💕 TEMS AURA - Soft Luxury Fashion Website
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
 
-First, run the development server:
+A beautiful, ultra-feminine luxury fashion designer website for custom-made bespoke clothing. Built with modern web technologies and designed for elegance.
+
+## ✨ Features
+
+- 🎀 **Soft Luxury Design** - Blush pink, nude beige, and gold accents
+- 👗 **Custom Order System** - Detailed measurement form with 10+ body measurements
+- 🖼️ **Dynamic Gallery** - CMS-controlled image gallery with categories
+- 📱 **Fully Responsive** - Mobile-first design
+- 🎨 **Decap CMS Integration** - Easy content management
+- 📧 **Netlify Forms** - Contact and order forms
+- 🔐 **Netlify Identity** - Secure CMS authentication
+- 🚀 **SEO Optimized** - Meta tags and Open Graph
+- 📲 **Social Media Integration** - Share designs easily
+
+## 🚀 Getting Started
+
+### Development Server
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 📁 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+- `/src/app` - Next.js pages and routes
+- `/src/components` - Reusable React components
+- `/public/admin` - Decap CMS configuration
+- `/content` - CMS-managed content
+- `netlify.toml` - Netlify deployment config
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Deploy to Netlify
 
-## Deploy on Vercel
+1. Push to GitHub:
+```bash
+git add .
+git commit -m "Initial commit"
+git push origin main
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Connect repository to Netlify
+3. Enable Netlify Identity in dashboard
+4. Enable Netlify Forms
+5. Access CMS at `/admin`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 Pages
+
+- **/** - Homepage with hero, featured designs, testimonials
+- **/custom-order** - Detailed measurement and order form
+- **/gallery** - Filterable gallery with social sharing
+- **/about** - Brand story and mission
+- **/admin** - CMS admin panel (requires authentication)
+
+## 🎨 Design System
+
+### Colors
+- Blush Pink: `#F4C2C2`, `#FFE5E5`
+- Nude Beige: `#F5E6D3`
+- Soft Gold: `#D4AF37`, `#FFD700`
+
+### Typography
+- Logo: Playfair Display (Italic)
+- Headings: Playfair Display (Bold)
+- Body: Inter
+
+## 📞 Contact
+
+- **Email**: tems_aura@gmail.com
+- **Phone**: +44 07554 416005
+
+## 🙏 Built With
+
+- [Next.js](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Decap CMS](https://decapcms.org/)
+- [Netlify](https://netlify.com/)
+
+---
+
+<div align="center">
+  <p>Crafted with 💕 by TEMS AURA</p>
+  <p><strong>Soft Luxury. Custom Made For You.</strong></p>
+</div>
