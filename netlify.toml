@@ -14,10 +14,7 @@
   to = "/index.html"
   status = 200
 
-# Enable Netlify Forms
-[context.production]
-  environment = { NODE_ENV = "production" }
-
-# Enable Netlify Identity for CMS authentication
+# Enable Netlify Forms and Identity
 [context.production.environment]
+  NODE_ENV = "production"
   NETLIFY_IDENTITY = "true"
