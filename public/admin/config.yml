@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
   branch: main
-  site_url: https://tems-aura.netlify.app
 
 # Uncomment when testing locally
 # local_backend: true
