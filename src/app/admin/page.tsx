@@ -4,8 +4,8 @@ import { useEffect } from 'react';
 
 export default function AdminPage() {
   useEffect(() => {
-    // Redirect to the actual admin page
-    window.location.href = '/admin/index.html';
+    // Force redirect to the working admin page
+    window.location.replace('/admin/index.html');
   }, []);
 
   return (
@@ -14,9 +14,15 @@ export default function AdminPage() {
       justifyContent: 'center', 
       alignItems: 'center', 
       height: '100vh',
-      fontFamily: 'system-ui, -apple-system, sans-serif'
+      fontFamily: 'system-ui, -apple-system, sans-serif',
+      backgroundColor: '#f5f5f5'
     }}>
-      <p>Loading CMS...</p>
+      <div style={{ textAlign: 'center' }}>
+        <h2 style={{ fontSize: '24px', marginBottom: '16px', color: '#333' }}>
+          Loading TEMS AURA CMS...
+        </h2>
+        <p style={{ color: '#666' }}>Redirecting to admin panel...</p>
+      </div>
     </div>
   );
 }
