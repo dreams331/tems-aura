@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 interface FormData {
   // Personal Info
@@ -117,16 +118,16 @@ export default function CustomOrderForm() {
                 timeline: '',
               });
             }}
-            className="bg-gradient-to-r from-luxury-blush to-luxury-gold text-white px-8 py-3 rounded-full font-semibold hover:shadow-xl hover:scale-105 transition-all duration-300"
+            className="bg-linear-to-r from-luxury-blush to-luxury-gold text-white px-8 py-3 rounded-full font-semibold hover:shadow-xl hover:scale-105 transition-all duration-300"
           >
             Submit Another Order
           </button>
-          <a
+          <Link
             href="/"
             className="bg-white border-2 border-luxury-gold text-foreground px-8 py-3 rounded-full font-semibold hover:bg-luxury-gold-accent hover:scale-105 transition-all duration-300"
           >
             Back to Home
-          </a>
+          </Link>
         </div>
       </div>
     );
@@ -524,7 +525,7 @@ export default function CustomOrderForm() {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-gradient-to-r from-luxury-blush to-luxury-gold text-white py-5 rounded-full font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full bg-linear-to-r from-luxury-blush to-luxury-gold text-white py-5 rounded-full font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {isSubmitting ? (
             <span className="flex items-center justify-center gap-2">

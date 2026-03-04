@@ -54,7 +54,7 @@ export default function Testimonials() {
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
-              className="bg-gradient-to-br from-luxury-blush-light/30 to-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-luxury-gold/10"
+              className="bg-linear-to-br from-luxury-blush-light/30 to-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-luxury-gold/10"
             >
               {/* Rating Stars */}
               <div className="flex gap-1 mb-4">
@@ -65,7 +65,7 @@ export default function Testimonials() {
 
               {/* Quote */}
               <div className="mb-6">
-                <span className="text-luxury-gold text-5xl font-playfair leading-none">"</span>
+                <span className="text-luxury-gold text-5xl font-playfair leading-none">&ldquo;</span>
                 <p className="text-foreground/80 leading-relaxed mt-2">
                   {testimonial.content}
                 </p>
@@ -73,7 +73,7 @@ export default function Testimonials() {
 
               {/* Author */}
               <div className="flex items-center gap-4 pt-6 border-t border-luxury-blush/20">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-luxury-blush to-luxury-gold flex items-center justify-center text-white font-bold text-lg">
+                <div className="w-12 h-12 rounded-full bg-linear-to-br from-luxury-blush to-luxury-gold flex items-center justify-center text-white font-bold text-lg">
                   {testimonial.name.charAt(0)}
                 </div>
                 <div>
