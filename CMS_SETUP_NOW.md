@@ -83,9 +83,10 @@ Set up authentication so you can manage your website content at `/admin`
 
 ### STEP 7: Login to Your CMS (1 minute)
 
-1. **Go to your Vercel site:** `https://[your-vercel-url].vercel.app/admin`
-   - (Find your URL in your Vercel dashboard if you don't have it)
-2. **You should see:** Decap CMS login page
+1. **Go to your CMS:** `https://tems-aura.vercel.app/admin/index.html`
+   - **Important:** Use the full URL with `/admin/index.html`
+   - Bookmark this page for easy access!
+2. **You should see:** Decap CMS login page with "Login with Netlify Identity" button
 3. **Click:** "Login with Netlify Identity"
 4. **Enter:**
    - Email: `tems_aura@gmail.com`
@@ -153,9 +154,11 @@ See `CMS_TROUBLESHOOTING.md` for more help!
 
 ## 📧 Your Credentials
 
-**CMS URL:** `https://[your-vercel-site].vercel.app/admin`  
+**CMS URL:** `https://tems-aura.vercel.app/admin/index.html`  
 **Email:** `tems_aura@gmail.com`  
 **Password:** [What you set in Step 6]
+
+**📌 Bookmark the CMS URL above for easy access!**
 
 ---
 
