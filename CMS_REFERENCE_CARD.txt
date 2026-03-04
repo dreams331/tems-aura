@@ -1,0 +1,132 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║               🎨 TEMS AURA CMS - QUICK REFERENCE              ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+┌───────────────────────────────────────────────────────────────┐
+│  📍 IMPORTANT URLS                                            │
+└───────────────────────────────────────────────────────────────┘
+
+  🔐 CMS Login:
+     https://[your-site].vercel.app/admin
+
+  ⚙️ Netlify Identity:
+     https://app.netlify.com
+
+  📦 GitHub Repo:
+     https://github.com/dreams331/tems-aura
+
+┌───────────────────────────────────────────────────────────────┐
+│  🚀 FIRST-TIME SETUP (DO ONCE)                                │
+└───────────────────────────────────────────────────────────────┘
+
+  1. Go to app.netlify.com
+     → Import your GitHub repo
+     → Deploy site (for auth only)
+
+  2. In Netlify → Identity Tab
+     → Enable Identity
+     → Enable Git Gateway
+     → Set "Invite only"
+
+  3. In Netlify → Identity → Invite Users
+     → Email: tems_aura@gmail.com
+     → Send invitation
+
+  4. Check email → Accept invite → Set password
+
+  5. Go to [your-site].vercel.app/admin
+     → Login with email/password
+     → Start managing content! ✨
+
+┌───────────────────────────────────────────────────────────────┐
+│  📧 CREDENTIALS                                               │
+└───────────────────────────────────────────────────────────────┘
+
+  Email:    tems_aura@gmail.com
+  Password: [Set during invitation acceptance]
+
+┌───────────────────────────────────────────────────────────────┐
+│  📚 HELP DOCUMENTS                                            │
+└───────────────────────────────────────────────────────────────┘
+
+  CMS_QUICK_START.md       → 5-min overview
+  CMS_CHECKLIST.md         → Step-by-step checklist
+  CMS_SETUP.md             → Detailed instructions
+  CMS_TROUBLESHOOTING.md   → Problem solutions
+  CMS_SUMMARY.md           → Complete overview
+
+┌───────────────────────────────────────────────────────────────┐
+│  🎨 WHAT YOU CAN MANAGE                                       │
+└───────────────────────────────────────────────────────────────┘
+
+  ✅ Gallery - Product photos & descriptions
+  ✅ Testimonials - Customer reviews & ratings
+  ✅ Site Settings - Contact info & branding
+  ✅ About Page - Brand story & mission
+  ✅ Blog Posts - Articles & updates (optional)
+
+┌───────────────────────────────────────────────────────────────┐
+│  🔄 HOW IT WORKS                                              │
+└───────────────────────────────────────────────────────────────┘
+
+  You edit in CMS → Commits to GitHub → Vercel deploys
+                      → Live site updates (1-2 min)
+
+┌───────────────────────────────────────────────────────────────┐
+│  ⚡ QUICK TIPS                                                │
+└───────────────────────────────────────────────────────────────┘
+
+  • Compress images before uploading (use TinyPNG)
+  • Keep images under 1MB for fast loading
+  • Test with dummy content first
+  • Changes are version controlled (safe!)
+  • Can revert any change using GitHub history
+
+┌───────────────────────────────────────────────────────────────┐
+│  🆘 TROUBLESHOOTING                                           │
+└───────────────────────────────────────────────────────────────┘
+
+  Can't login?
+    → Verify you accepted invitation
+    → Check email/password correct
+    → Try incognito mode
+
+  Can't save content?
+    → Verify Git Gateway enabled
+    → Check internet connection
+    → Try logging out and back in
+
+  Changes not appearing?
+    → Wait 2-3 minutes for deploy
+    → Hard refresh (Ctrl+Shift+R)
+    → Check Vercel deployment status
+
+  More help:
+    → See CMS_TROUBLESHOOTING.md
+
+┌───────────────────────────────────────────────────────────────┐
+│  ✨ SUCCESS CHECKLIST                                         │
+└───────────────────────────────────────────────────────────────┘
+
+  ☐ Created Netlify site
+  ☐ Enabled Identity & Git Gateway
+  ☐ Invited myself as admin
+  ☐ Accepted invitation & set password
+  ☐ Can login at /admin
+  ☐ Can see CMS dashboard
+  ☐ Created test content
+  ☐ Verified commit in GitHub
+  ☐ Confirmed update on live site
+
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║        📞 Need Help? Check CMS_TROUBLESHOOTING.md             ║
+║                                                               ║
+║         🎉 You've got this! Setup takes ~15 minutes           ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+                    TEMS AURA - Luxury Fashion
+                   Soft Luxury. Custom Made For You.
