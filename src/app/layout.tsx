@@ -5,12 +5,7 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
-  subsets: ["latin"],
-  style: ['normal', 'italic'],
-  weight: ['400', '700', '900'],
-  display: 'swap',
+c
 });
 
 const inter = Inter({
